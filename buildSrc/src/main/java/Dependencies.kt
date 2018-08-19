@@ -1,6 +1,6 @@
 object Vers {
   val compile_sdk = 28
-  val min_sdk = 25
+  val min_sdk = 21
   val target_sdk = 28
 
   val kotlin = "1.2.60"
@@ -18,6 +18,10 @@ object Libs {
   val kotlin = "org.jetbrains.kotlin:kotlin-stdlib:${Vers.kotlin}"
   val coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Vers.couroutine}"
   val ui_coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Vers.couroutine}"
+
+  val rxjava = "io.reactivex.rxjava2:rxjava:2.2.0"
+  val rxandroid = "io.reactivex.rxjava2:rxandroid:2.1.0"
+  val rxkotlin = "io.reactivex.rxjava2:rxkotlin:2.3.0"
 
   val ktx = "androidx.core:core-ktx:1.0.0-rc01"
 
